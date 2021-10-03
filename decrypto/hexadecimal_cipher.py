@@ -1,3 +1,5 @@
+# Hexadecimal Cipher implimentation
+
 class HexadecimalCipher:
 	def __init__(self):
 		''' This is a python implementation of Binary Cipher. More about it can
