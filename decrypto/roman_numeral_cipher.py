@@ -1,9 +1,7 @@
-# Roman Numeral Cipher implimentation
-
 class RomanNumeralCipher:
     def __init__(self):
-        ''' This is a python implementation of Binary Cipher. More about it can
-        be read here : https://www.britannica.com/topic/Roman-numeral'''
+        """This is a python implementation of Binary Cipher. More about it can
+        be read here : https://www.britannica.com/topic/Roman-numeral"""
 
         self.val = [
             1000, 900, 500, 400,
