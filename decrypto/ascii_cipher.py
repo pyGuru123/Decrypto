@@ -2,7 +2,8 @@ class AsciiCipher:
     def __init__(self):
         """This is a python implementation of Ascii Cipher"""
 
-    def encrypt(self, msg: str) -> str:
+    @staticmethod
+    def encrypt(msg: str) -> str:
         result = ''
         for ele in msg:
             value = ord(ele)
@@ -10,7 +11,8 @@ class AsciiCipher:
 
         return result
 
-    def decrypt(self, msg: str) -> str:
+    @staticmethod
+    def decrypt(msg: str) -> str:
         result = ''
         for ele in msg.split():
             value = chr(int(ele))
