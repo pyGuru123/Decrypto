@@ -11,4 +11,3 @@ class ReverseCipher:
     def decrypt(msg: str) -> str:
         result = msg[::-1]
         return result
-

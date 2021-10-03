@@ -5,4 +5,6 @@ from .hexadecimal_cipher import HexadecimalCipher
 from .morse_code_cipher import MorseCodeCipher
 from .octal_cipher import OctalCipher
 from .reverse_cipher import ReverseCipher
-from .roman_numeral_cipher import  RomanNumeralCipher
+from .roman_numeral_cipher import RomanNumeralCipher
+
+__version__ = "0.0.1"
