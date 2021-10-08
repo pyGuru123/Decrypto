@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="decrypto",                     # This is the name of the package
-    version="1.0.1",                        # The initial release version
+    version="1.0.2",                        # The initial release version
     author="Prajjwal Pathak",                     # Full name of the author
     description="Light Weight python package for encrption/decryption",
     long_description=long_description,      # Long description read from the the readme file
@@ -19,6 +19,5 @@ setuptools.setup(
     ],                                      # Information to filter the project on PyPi website
     python_requires='>=3.5',                # Minimum version requirement of the package
     py_modules=["decrypto"],             # Name of the python package
-    package_dir={'':'decrypto/src'},     # Directory of the source code of the package
-    install_requires=[]                     # Install other dependencies if any
+    install_requires=[]                    # Install other dependencies if any
 )

@@ -17,7 +17,8 @@ class RomanNumeralCipher:
             "I"
         ]
 
-    def encrypt(self, num: int) -> str:
+    @staticmethod
+    def encrypt(num: int) -> str:
         result = ''
 
         if not isinstance(num, int):
@@ -32,7 +33,8 @@ class RomanNumeralCipher:
 
         return result
 
-    def decrypt(self, msg: str) -> int:
+    @staticmethod
+    def decrypt(msg: str) -> int:
         list_ = ['CM', 'CD', 'XC', 'XL', 'IX', 'IV']
         num = 0
 

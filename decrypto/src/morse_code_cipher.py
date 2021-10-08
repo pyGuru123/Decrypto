@@ -21,7 +21,8 @@ class MorseCodeCipher:
 
         self.reverse_morse = {self.morse_dict[key]: key for key in self.morse_dict}
 
-    def encrypt(self, text: str) -> str:
+    @staticmethod
+    def encrypt(text: str) -> str:
         result = ''
 
         for ch in text.upper():
@@ -33,7 +34,8 @@ class MorseCodeCipher:
 
         return result
 
-    def decrypt(self, text: str) -> str:
+    @staticmethod
+    def decrypt(text: str) -> str:
         text = text.strip(' ') + ' '
         result = ''
 
