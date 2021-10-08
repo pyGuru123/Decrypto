@@ -15,7 +15,7 @@ pip install decrypto
 ```python
 from decrypto import MorseCodeCipher
 
-data = 'Hello World 😊'
+data = 'Hello World'
 
 # encrypt using morse code cipher
 encrypted = MorseCodeCipher.encrypt(data)
