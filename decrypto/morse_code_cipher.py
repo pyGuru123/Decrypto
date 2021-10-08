@@ -19,7 +19,8 @@ class MorseCodeCipher:
                            '(': '-.--.', ')': '-.--.-'
                            }
 
-        self.reverse_morse = {self.morse_dict[key]: key for key in self.morse_dict}
+        self.reverse_morse = {
+            self.morse_dict[key]: key for key in self.morse_dict}
 
     def encrypt(self, text: str) -> str:
         result = ''

@@ -1,5 +1,6 @@
 import string
 
+
 class CaesarCipher:
     def __init__(self):
         """This is a python implementation of Caesar Cipher"""
