@@ -2,12 +2,12 @@
 <p align="center">A light-weight encryption & decryption library, Built with power and simplicity!</p>
 
 <p>
-    Decrypto is a light-weight python package to provide state of the art encrption and decryption techniques and aims to be simple and easy to use. Being opne-source, Decrypto wraps a huge number of old, modern, secure and encoding based encryption-decryption methods while still being fast<br><br>
+    Decrypto is a light-weight python package to provide state of the art encryption and decryption techniques and aims to be simple and easy to use. Being open-source, Decrypto wraps a huge number of old, modern, secure and encoding based encryption-decryption methods while still being fast<br><br>
 </p>
 
 <h2>Features</h2>
 <ul>
-    <li>Decrypto is light-weight and fast</li>
+    <li>It's light-weight and fast</li>
     <li>Simple to use and learn</li>
     <li>Provides a multidegree of techniques from various cryptographic field</li>
 </ul>
