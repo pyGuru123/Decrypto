@@ -1,7 +1,7 @@
 <h1 align="center">Decrypto</h1>
 <p align="center">A light-weight encryption & decryption library, Built with power and simplicity!</p>
 <p align="center">
-  <img src='https://img.shields.io/github/issues/pyGuru123/Decrypto?logo=github'>
+  <img src='https://img.shields.io/github/issues/pyGuru123/Decrypto?logo=github&color=blue'>
   <img src='https://img.shields.io/github/stars/pyGuru123/Decrypto?style=social'>
   <img src='https://img.shields.io/github/forks/pyGuru123/Decrypto?style=social&logo=git'>
   <img src='https://img.shields.io/badge/License-MIT-brightgreen'>
