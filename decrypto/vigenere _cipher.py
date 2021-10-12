@@ -4,9 +4,7 @@ class VigenereCipher:
 
     @staticmethod
     def encrypt(msg: str, key: str) -> str:
-        if len(msg) <= len(key):
-            return(key)
-        else:
+        if len(msg) > len(key):
             # Generates the key in a cyclic manner until it's length equal to the length of msg
             for i in range(len(msg) - len(key)):
                 key += key[i % len(key)]
@@ -19,9 +17,7 @@ class VigenereCipher:
 
     @staticmethod
     def decrypt(msg: str,key: str) -> str:
-        if len(msg) <= len(key):
-            return(key)
-        else:
+        if len(msg) > len(key):
             # Generates the key in a cyclic manner until it's length equal to the length of msg
             for i in range(len(msg) - len(key)):
                 key += key[i % len(key)]
