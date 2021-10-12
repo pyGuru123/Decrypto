@@ -6,3 +6,4 @@ from .morse_code_cipher import MorseCodeCipher
 from .octal_cipher import OctalCipher
 from .reverse_cipher import ReverseCipher
 from .roman_numeral_cipher import RomanNumeralCipher
+from .vigenere_cipher import VigenereCipher
