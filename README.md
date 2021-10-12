@@ -39,7 +39,7 @@ data = 'Hello World'
 encrypted = cipher.encrypt(data)
 print(encrypted)
 
-# encrypt using morse code cipher
+# decrypt using morse code cipher
 decrypted = cipher.decrypt(encrypted)
 print(decrypted)
 ```
