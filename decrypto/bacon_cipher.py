@@ -45,5 +45,5 @@ class  BaconCipher:
                     decipher += ' '
                     i += 1 # index next to the space
             else:
-                break # emulating a do-while loop
+                break
         return decipher
