@@ -3,7 +3,7 @@ import base64 as b
 
 class Base64Cipher:
     def __init__(self) -> None:
-        """This is a python implementation of Vigenere Cipher"""
+        """This is a python implementation of Base64 Cipher"""
 
     @staticmethod
     def encrypt(msg: str) -> str:
