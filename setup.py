@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="decrypto",                     # This is the name of the package
-    version="1.0.5",                        # The initial release version
+    version="1.0.6",                        # The initial release version
     author="Prajjwal Pathak",                     # Full name of the author
     description="Light Weight python package for encrption/decryption",
     long_description=long_description,      # Long description read from the the readme file
