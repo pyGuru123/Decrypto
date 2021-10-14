@@ -11,3 +11,4 @@ from decrypto.src.reverse_cipher import ReverseCipher
 from decrypto.src.roman_numeral_cipher import RomanNumeralCipher
 from decrypto.src.rot13_cipher import ROT13Cipher
 from decrypto.src.vigenere_cipher import VigenereCipher
+from decrypto.src.atbash_cipher import AtBashCipher
