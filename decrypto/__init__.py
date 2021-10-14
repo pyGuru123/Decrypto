@@ -1,3 +1,4 @@
+from .affine_cipher import AffineCipher
 from .ascii_cipher import AsciiCipher
 from .bacon_cipher import BaconCipher
 from .base64_cipher import Base64Cipher
