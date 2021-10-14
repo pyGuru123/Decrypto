@@ -8,3 +8,4 @@ from .reverse_cipher import ReverseCipher
 from .roman_numeral_cipher import RomanNumeralCipher
 from .vigenere_cipher import VigenereCipher
 from .base64_cipher import Base64Cipher
+from .atbash_cipher import AtBashCipher
