@@ -1,5 +1,6 @@
 from decrypto.src.affine_cipher import AffineCipher
 from decrypto.src.ascii_cipher import AsciiCipher
+from decrypto.src.atbash_cipher import AtBashCipher
 from decrypto.src.bacon_cipher import BaconCipher
 from decrypto.src.base64_cipher import Base64Cipher
 from decrypto.src.binary_cipher import BinaryCipher
@@ -11,4 +12,3 @@ from decrypto.src.reverse_cipher import ReverseCipher
 from decrypto.src.roman_numeral_cipher import RomanNumeralCipher
 from decrypto.src.rot13_cipher import ROT13Cipher
 from decrypto.src.vigenere_cipher import VigenereCipher
-from decrypto.src.atbash_cipher import AtBashCipher
