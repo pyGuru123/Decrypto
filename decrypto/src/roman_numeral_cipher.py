@@ -1,6 +1,6 @@
 class RomanNumeralCipher:
     def __init__(self):
-        """This is a python implementation of Binary Cipher. More about it can
+        """This is a python implementation of RomanNumeral Cipher. More about it can
         be read here : https://www.britannica.com/topic/Roman-numeral"""
 
         self.val = [
