@@ -1,6 +1,6 @@
 class MorseCodeCipher:
     def __init__(self):
-        """ This is a python implementation of Roman Numeral Cipher"""
+        """ This is a python implementation of MorseCode Cipher"""
 
         self.morse_dict = {'A': '.-', 'B': '-...',
                            'C': '-.-.', 'D': '-..', 'E': '.',
