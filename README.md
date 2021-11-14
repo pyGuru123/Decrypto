@@ -29,6 +29,8 @@ pip install decrypto
 
 ## Usage
 
+You can either use a classical cipher technique
+
 ```python
 from decrypto import MorseCodeCipher
 
@@ -41,6 +43,23 @@ print(encrypted)
 
 # decrypt using morse code cipher
 decrypted = cipher.decrypt(encrypted)
+print(decrypted)
+```
+
+or a more advanced and modern cipher technique
+
+```python
+from decrypto import RSACipher
+
+cipher = RSACipher()
+data = 'hello world'
+
+keys = cipher.generate_keys(23, 31)
+encrypted = cipher.encrypt(message, keys['public_key'])
+decrypted = cipher.decrypt(encrypted, keys['private_key'])
+
+print(keys)
+print(encrypted)
 print(decrypted)
 ```
 
