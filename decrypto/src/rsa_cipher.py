@@ -5,18 +5,18 @@ class RSACipher():
         """This is a python implementation of RSA Cipher"""
 
     @staticmethod
-    def get_totient(p, q):
+    def get_totient(p: int, q: int):
         return (p - 1) * (q - 1)
 
     @staticmethod
-    def gcd(a, b):
+    def gcd(a: int, b: int):
         if b == 0:
             return a
         else:
             return RSACipher.gcd(b, a % b)
 
     @staticmethod
-    def get_e(totient):
+    def get_e(totient: int):
         e = random.randint(2, totient - 1)
         while RSACipher.gcd(e, totient) != 1:
             e = random.randint(2, totient - 1)
@@ -24,14 +24,14 @@ class RSACipher():
         return e
 
     @staticmethod
-    def modular_inverse(a, m):
+    def modular_inverse(a: int, m: int):
         for x in range(1, m):
             if (((a%m) * (x%m)) % m == 1):
                 return x
         return -1
 
     @staticmethod
-    def generate_keys(p, q):
+    def generate_keys(p: int, q: int):
         p = p
         q = q
         n = p * q
@@ -47,7 +47,7 @@ class RSACipher():
         return keys
 
     @staticmethod
-    def encrypt(msg, public_key):
+    def encrypt(msg: str, public_key: tuple):
         n, e = public_key
         if isinstance(msg, int):
             result = (msg ** e) % n
@@ -59,7 +59,7 @@ class RSACipher():
         return result
 
     @staticmethod
-    def decrypt(msg, private_key):
+    def decrypt(msg: str, private_key: tuple):
         p, q, d = private_key
         n = p * q
         if isinstance(msg, int):
