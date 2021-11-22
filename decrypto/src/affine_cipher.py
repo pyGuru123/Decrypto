@@ -2,26 +2,14 @@ class AffineCipher:
 
     def __init__(self):
         """This is a python implementation of Affine Cipher"""
+        pass
 
     @staticmethod
-    def egcd(a, b):
-        '''Euclidean Algorithm for finding modular inverse'''
-        x, y, u, v = 0, 1, 1, 0
-        while a != 0:
-            q, r = b // a, b % a
-            m, n = x - u * q, y - v * q
-            b, a, x, y, u, v = a, r, u, v, m, n
-        gcd = b
-        return gcd, x, y
-
-    @staticmethod
-    def modinv(a, m):
-        '''Modular Inverse'''
-        gcd, x, y = AffineCipher.egcd(a, m)
-        if gcd != 1:
-            return None  # modular inverse does not exist
-        else:
-            return x % m
+    def modinv(a: int, m: int):
+        for x in range(1, m):
+            if (((a%m) * (x%m)) % m == 1):
+                return x
+        return -1
 
     @staticmethod
     def encrypt(msg: str, a: int, b: int) -> str:
@@ -44,3 +32,11 @@ class AffineCipher:
             else:
                 result += ch
         return result
+
+
+data = 'Hello world!'
+cipher = AffineCipher()
+encrypted = cipher.encrypt(data, 11, 17)
+decrypted = cipher.decrypt(encrypted, 11, 17)
+print(encrypted)
+print(decrypted)
