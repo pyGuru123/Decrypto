@@ -1,5 +1,4 @@
 class AffineCipher:
-
     def __init__(self):
         """This is a python implementation of Affine Cipher"""
         pass
@@ -32,11 +31,3 @@ class AffineCipher:
             else:
                 result += ch
         return result
-
-
-data = 'Hello world!'
-cipher = AffineCipher()
-encrypted = cipher.encrypt(data, 11, 17)
-decrypted = cipher.decrypt(encrypted, 11, 17)
-print(encrypted)
-print(decrypted)
