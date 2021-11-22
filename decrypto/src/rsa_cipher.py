@@ -36,8 +36,7 @@ class RSACipher():
         q = q
         n = p * q
         totient = RSACipher.get_totient(p, q)
-        # e = RSACipher.get_e(totient)
-        e = 563
+        e = RSACipher.get_e(totient)
         d = RSACipher.modular_inverse(e, totient)
 
         keys = {
