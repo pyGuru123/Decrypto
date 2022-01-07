@@ -12,6 +12,7 @@ from .src.reverse_cipher import ReverseCipher
 from .src.roman_numeral_cipher import RomanNumeralCipher
 from .src.rot13_cipher import ROT13Cipher
 from .src.rsa_cipher import RSACipher
+from .src.scytale_cipher import ScytaleCipher
 from .src.vigenere_cipher import VigenereCipher
 
 __all__ = [
@@ -29,6 +30,7 @@ __all__ = [
     "RomanNumeralCipher",
     "ROT13Cipher",
     "RSACipher",
+    "ScytaleCipher",
     "VigenereCipher"
 ]
 
