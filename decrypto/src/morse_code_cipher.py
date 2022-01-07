@@ -38,10 +38,3 @@ class MorseCodeCipher:
             result += self.reverse_morse.get(ch, ch)
 
         return result
-
-data = 'hello world 123 !'
-cipher = MorseCodeCipher()
-encrypted = cipher.encrypt(data)
-decrypted = cipher.decrypt(encrypted)
-print(encrypted)
-print(decrypted)
