@@ -5,7 +5,7 @@
   <img src='https://img.shields.io/github/stars/pyGuru123/Decrypto?style=social'>
   <img src='https://img.shields.io/github/forks/pyGuru123/Decrypto?style=social&logo=git'>
   <img src='https://img.shields.io/badge/License-MIT-brightgreen'>
-  <img src='https://img.shields.io/maintenance/yes/2022'>
+  <img src='https://img.shields.io/maintenance/yes/2023'>
 </p>
 
 <p>
