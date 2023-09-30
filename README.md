@@ -8,6 +8,8 @@
   <img src='https://img.shields.io/maintenance/yes/2023'>
 </p>
 
+### This repository is participating in Hacktoberfest 2023. Check for issues.
+
 <p>
     Decrypto is a light-weight python package to provide state of the art encryption and decryption techniques and aims to be simple and easy to use. Being open-source, Decrypto wraps a huge number of old, modern, secure and encoding based encryption-decryption methods while still being fast<br><br>
 </p>
