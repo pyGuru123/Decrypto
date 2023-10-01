@@ -8,8 +8,6 @@
   <img src='https://img.shields.io/maintenance/yes/2023'>
 </p>
 
-### This repository is participating in Hacktoberfest 2023. Check for issues.
-
 <p>
     Decrypto is a light-weight python package to provide state of the art encryption and decryption techniques and aims to be simple and easy to use. Being open-source, Decrypto wraps a huge number of old, modern, secure and encoding based encryption-decryption methods while still being fast<br><br>
 </p>
@@ -65,9 +63,22 @@ print(encrypted)
 print(decrypted)
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-Please make sure to update tests as appropriate.
+# 
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+<div align="center">
+<img src="https://hacktoberfest.com/_next/static/media/logo-hacktoberfest--horizontal.ebc5fdc8.svg"/> <br/>
+This Repository is Participating in Hacktoberfest 2023 <br/><br/>
+<img src='https://img.shields.io/github/issues/pyGuru123/Decrypto?logo=github&color=blue'>
+<img src='https://img.shields.io/github/stars/pyGuru123/Decrypto?style=social'>
+<img src='https://img.shields.io/github/forks/pyGuru123/Decrypto?style=social&logo=git'>
+<br/><br/>
+</div>
+
+To participate and contribute checkout our issues section. You can also discuss new ideas in our telegram group here [@pyguru](https://t.me/pyguruDiscussion)
+
+Our other repositiores partcipating in Hacktoberfest 2023
+
+* [LLM-Apps](https://github.com/pyGuru123/LLM-Apps)
+* [Decrypto](https://github.com/pyGuru123/Decrypto)
+* [TG-Api](https://github.com/pyGuru123/tg-api)
+
